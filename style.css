@@ -1,0 +1,18 @@
+p {
+	color: green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height: 16px;
+	width: 600px;
+	background-color: antiquewhite;
+	opacity: 0.3
+	padding: 10px;
+	margin: 10px;
+}
+h1,h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: darkblue;
+}
+body{
+	background-image: url("slike/slika12.jpg");
+}

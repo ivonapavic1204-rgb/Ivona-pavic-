@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Multimedija</title>
+	<style>
+	body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkred;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+</style>
+	
+</head>
+
+<body>
+
+<h1>Multimedija</h1>
+
+<h2>Moje slike</h2>
+
+<img src="slike/slika1.jpg" width="300">
+<img src="slike/slika2.jpg" width="300">
+<img src="slike/slika3.jpg" width="300">
+
+<h2>Video</h2>
+<video width="400" controls>
+    <source src="video/video.mp4" type="video/mp4">
+</video>
+
+<h2>YouTube video</h2>
+
+<iframe 
+  width="560" 
+  height="315" 
+  
+src="https://www.youtube.com/embed/WmVLcj-XKnM?si=C_T3PjcwM1PdpsAS" 
+  title="YouTube video player" 
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+<h2>Zvuk</h2>
+<audio controls>
+    <source src="zvuk/zvuk.mp3" type="audio/mp3">
+</audio>
+
+</body>
+</html>
